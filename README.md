@@ -2,20 +2,21 @@
 
 Create a `.env` file in the root of your project with the following content:
 
+```
 |-- src/
 | |-- controllers/
 | |-- middleware/
 | |-- routes/
 | |-- prisma/
 | |-- schema.prisma
-|-- **tests**/
+|-- **tests/**
 |-- **.env**
 |-- jest.config.js
 |-- package.json
 |-- tsconfig.json
 |-- Dockerfile
 |-- docker-compose.yml
-
+```
 ### Add these variables -
 
 DATABASE_URL=""
@@ -30,7 +31,7 @@ JWT_SECRET=""
 4.  npx prisma db seed
 5.  npm run dev
 
-## The API will now be running on http://localhost:3000.
+### The API will now be running on http://localhost:3000.
 
 # API Endpoints
 
